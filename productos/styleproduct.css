@@ -1,0 +1,75 @@
+
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+*,*::before  *,*::after{
+    box-sizing: inherit;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+.containr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color:rgba(243, 172, 172, 0.3)
+   
+}
+.containr div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    margin-top: 2px;
+    flex-direction: column;
+    font-size: 30PX;
+  
+  
+ 
+    
+   
+}
+div img{
+    width: 400px;
+    height: 400px;
+
+}
+div p{
+    text-align: center;
+    margin: 0;
+    text-align: justify;
+    font-style: italic;
+    text-transform: capitalize;
+}
+div .regalo{
+    color: crimson;
+}
+footer img{
+    
+    width: 4rem;
+    background-color: rgb(243, 247, 250);
+    margin-right: 1rem;
+    border-radius: 50%;
+}
+footer{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-size: 1rem;
+color: rgb(38, 113, 179);
+background-color:  #190030;
+
+}
+footer a{
+color: rgb(250, 249, 249);
+text-decoration: none;
+}
+footer p{
+    color: antiquewhite;
+}
